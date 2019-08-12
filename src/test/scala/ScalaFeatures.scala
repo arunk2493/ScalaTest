@@ -29,10 +29,6 @@ class ScalaFeatures extends FeatureSpec with Matchers with WebBrowser with Given
       Then("Enters A  Value")
       click on xpath("//input[@id='searchInput']")
       enter(text1)
-      Then("Verify the Search String Heading")
-      val textVerify2 = xpath("//div[@class='hatnote navigation-not-searchable']/../p[3]/b[1]").element.text
-      println(textVerify2)
-      println(text1.equalsIgnoreCase(textVerify2))
     }
 
   //feature("Login to Wikipedia"){
@@ -48,10 +44,6 @@ class ScalaFeatures extends FeatureSpec with Matchers with WebBrowser with Given
       Then("Enters A  Value")
       click on xpath("//input[@id='searchInput']")
       enter(text2)
-      Then("Verify the Search String Heading")
-      val textVerify2 = xpath("//div[@class='hatnote navigation-not-searchable']/../p[3]/b[1]").element.text
-      //println(textVerify2)
-      //text2.contains(textVerify2)
     }
   }
   override def afterAll(): Unit ={
