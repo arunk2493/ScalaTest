@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+      <head>
+        <title>ScalaTest Suite BlogSpec Results</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Expires" content="-1"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <link href="css/styles.css" rel="stylesheet"/>
+        
+        <script type="text/javascript">
+        //<![CDATA[
+            function toggleDetails(contentId, linkId) { 
+              var ele = document.getElementById(contentId); 
+              var text = document.getElementById(linkId); 
+              if(ele.style.display == "block") { 
+                ele.style.display = "none"; 
+                text.innerHTML = "(Show Details)"; 
+              } 
+              else { 
+                ele.style.display = "block"; 
+                text.innerHTML = "(Hide Details)";
+              }
+            } 
+            function hideOpenInNewTabIfRequired() { 
+              if (top === self) { document.getElementById('printlink').style.display = 'none'; } 
+            }
+        //]]>
+        </script>
+      </head>
+      <body class="specification">
+        <div id="suite_header_name">BlogSpec</div>
+        <div id="suite_header_statistic_failed">
+          Tests: total 1, succeeded 0, failed 1, canceled 0, ignored 0, pending 0
+        </div>
+        <div id="361e0dff-7fcf-4dfd-a0bb-72dd95bb057e" class="scope" style="margin-left: 0px;">
+      The blog app home page
+    </div><div id="ab376696-bbea-4d90-98da-2601497b954b" class="test_failed" style="margin-left: 0px;">
+      <dl>
+        <dt>should have the correct title *** FAILED ***</dt>
+      </dl>
+      <div class="detailstoggle">
+      <a id="912acba2-dde1-4101-adb5-da70f8512265" href="javascript:toggleDetails('4e899fca-3c53-4a44-a81e-e03a9d8d6ba0', '912acba2-dde1-4101-adb5-da70f8512265');">(Show Details)</a>
+      </div>
+      <div id="4e899fca-3c53-4a44-a81e-e03a9d8d6ba0" style="display: none">
+        <table>
+          <tr valign="top">
+              <td align="left"><span class="label">Message:</span></td>
+              <td align="left"><span>&quot;[k1-incarichisinistri.generali.it]&quot; was not equal to &quot;[Generali Single Sign On]&quot;</span></td>
+            </tr>
+          <tr valign="top"><td align="left"><span class="label">Line:</span></td><td align="left"><span>(sample2.scala:14)</span></td></tr>
+          <tr valign="top"><td align="right"><span class="label">Exception:</span></td><td align="left">org.scalatest.exceptions.TestFailedException</td></tr>
+        </table>
+        <table>
+          <tr valign="top"><td align="left" colspan="2">
+            <div class="gray">org.scalatest.MatchersHelper$.indicateFailure(MatchersHelper.scala:343)</div><div class="gray">org.scalatest.Matchers$ShouldMethodHelper$.shouldMatcher(Matchers.scala:6723)</div><div class="gray">org.scalatest.Matchers$AnyShouldWrapper.should(Matchers.scala:6759)</div>
+            <div>BlogSpec.$anonfun$new$1(sample2.scala:14)</div><div>scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)</div><div>org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)</div><div>org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)</div><div>org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)</div><div>org.scalatest.Transformer.apply(Transformer.scala:22)</div><div>org.scalatest.Transformer.apply(Transformer.scala:20)</div><div>org.scalatest.FlatSpecLike$$anon$5.apply(FlatSpecLike.scala:1682)</div><div>org.scalatest.TestSuite.withFixture(TestSuite.scala:196)</div><div>org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)</div><div>org.scalatest.FlatSpec.withFixture(FlatSpec.scala:1685)</div><div>org.scalatest.FlatSpecLike.invokeWithFixture$1(FlatSpecLike.scala:1680)</div><div>org.scalatest.FlatSpecLike.$anonfun$runTest$1(FlatSpecLike.scala:1692)</div><div>org.scalatest.SuperEngine.runTestImpl(Engine.scala:286)</div><div>org.scalatest.FlatSpecLike.runTest(FlatSpecLike.scala:1692)</div><div>org.scalatest.FlatSpecLike.runTest$(FlatSpecLike.scala:1674)</div><div>BlogSpec.org$scalatest$BeforeAndAfter$$super$runTest(sample2.scala:6)</div><div>org.scalatest.BeforeAndAfter.runTest(BeforeAndAfter.scala:203)</div><div>org.scalatest.BeforeAndAfter.runTest$(BeforeAndAfter.scala:192)</div><div>BlogSpec.runTest(sample2.scala:6)</div><div>org.scalatest.FlatSpecLike.$anonfun$runTests$1(FlatSpecLike.scala:1750)</div><div>org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:393)</div><div>scala.collection.immutable.List.foreach(List.scala:312)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:381)</div><div>org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:370)</div><div>org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:407)</div><div>scala.collection.immutable.List.foreach(List.scala:312)</div><div>org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:381)</div><div>org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:376)</div><div>org.scalatest.SuperEngine.runTestsImpl(Engine.scala:458)</div><div>org.scalatest.FlatSpecLike.runTests(FlatSpecLike.scala:1750)</div><div>org.scalatest.FlatSpecLike.runTests$(FlatSpecLike.scala:1749)</div><div>org.scalatest.FlatSpec.runTests(FlatSpec.scala:1685)</div><div>org.scalatest.Suite.run(Suite.scala:1124)</div><div>org.scalatest.Suite.run$(Suite.scala:1106)</div><div>org.scalatest.FlatSpec.org$scalatest$FlatSpecLike$$super$run(FlatSpec.scala:1685)</div><div>org.scalatest.FlatSpecLike.$anonfun$run$1(FlatSpecLike.scala:1795)</div><div>org.scalatest.SuperEngine.runImpl(Engine.scala:518)</div><div>org.scalatest.FlatSpecLike.run(FlatSpecLike.scala:1795)</div><div>org.scalatest.FlatSpecLike.run$(FlatSpecLike.scala:1793)</div><div>BlogSpec.org$scalatest$BeforeAndAfter$$super$run(sample2.scala:6)</div><div>org.scalatest.BeforeAndAfter.run(BeforeAndAfter.scala:258)</div><div>org.scalatest.BeforeAndAfter.run$(BeforeAndAfter.scala:256)</div><div>BlogSpec.run(sample2.scala:6)</div><div>org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:317)</div><div>org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:510)</div><div>sbt.TestRunner.runTest$1(TestFramework.scala:113)</div><div>sbt.TestRunner.run(TestFramework.scala:124)</div><div>sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:282)</div><div>sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:246)</div><div>sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:282)</div><div>sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:282)</div><div>sbt.TestFunction.apply(TestFramework.scala:294)</div><div>sbt.Tests$.$anonfun$toTask$1(Tests.scala:309)</div><div>sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:46)</div><div>sbt.std.Transform$$anon$4.work(System.scala:67)</div><div>sbt.Execute.$anonfun$submit$2(Execute.scala:269)</div><div>sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)</div><div>sbt.Execute.work(Execute.scala:278)</div><div>sbt.Execute.$anonfun$submit$1(Execute.scala:269)</div><div>sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)</div><div>sbt.CompletionService$$anon$2.call(CompletionService.scala:37)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</div><div>java.util.concurrent.FutureTask.run(FutureTask.java:266)</div><div>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</div><div>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</div><div>java.lang.Thread.run(Thread.java:748)</div>
+            </td>
+          </tr>
+        </table>
+        
+      </div>
+    </div>
+        <table id="suite_footer">
+          <tr id="suite_footer_id">
+            <td id="suite_footer_id_label_failed">Suite ID</td>
+            <td id="suite_footer_id_value" colspan="5">BlogSpec</td>
+          </tr>
+          <tr id="suite_footer_class">
+            <td id="suite_footer_class_label_failed">Class name</td>
+            <td id="suite_footer_class_value" colspan="5">BlogSpec</td>
+          </tr>
+          <tr id="suite_footer_duration">
+            <td id="suite_footer_duration_label_failed">Total duration</td>
+            <td id="suite_footer_duration_value" colspan="2">
+              1 second, 131 milliseconds
+              </td>
+          </tr>
+        </table>
+           <div id="printlink">(<a href="BlogSpec.html" target="_blank">Open BlogSpec in new tab</a>)</div>
+      </body>
+      <script type="text/javascript">
+        //<![CDATA[
+          hideOpenInNewTabIfRequired();
+        //]]>
+      </script>
+    </html>
