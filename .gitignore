@@ -1,2 +1,4 @@
 .idea/workspace.xml
 target/*
+target/scala-2.13
+project/*
