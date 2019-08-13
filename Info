@@ -1,0 +1,18 @@
+#####To Run From Command Line#####
+
+#Navigate to the project folder
+#Install Scala and Sbt using brew install scala and brew install sbt
+#sbt compile - For Compiling
+#sbt test - To run all the tests in Test folder
+#sbt testOnly "ClassName" - To run a specific class in test folder
+
+#####To Run From Intellij#####
+
+#Install Scala and SBT plugins
+#sbt compile - For Compiling
+#sbt test - To run all the tests in Test folder
+#sbt testOnly*"ClassName" - To run a specific class in test folder
+
+#####Dependencies#####
+
+#All dependencies will be present in build.sbt file
