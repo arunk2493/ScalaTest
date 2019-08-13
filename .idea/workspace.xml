@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dee48a-0432-43a8-9b71-7846e91ce06a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/scala/ScalaFeatures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/ScalaFeatures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,14 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/ScalaFeatures.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="133">
               <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -76,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/sample2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ReusableMethods.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ScalaFeatures.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -291,7 +302,7 @@
       <workItem from="1565506069104" duration="1654000" />
       <workItem from="1565539121906" duration="487000" />
       <workItem from="1565621578684" duration="5094000" />
-      <workItem from="1565633248063" duration="590000" />
+      <workItem from="1565633248063" duration="1615000" />
     </task>
     <servers />
   </component>
@@ -328,7 +339,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55889000" />
+    <option name="totallyTimeSpent" value="56914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="789" extended-state="0" />
@@ -432,11 +443,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/ScalaFeatures.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="133">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

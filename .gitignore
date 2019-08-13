@@ -1,10 +1,10 @@
-	.idea/workspace.xml
-	target/streams/test/compile/$global/streams/out
-	target/streams/test/compileIncremental/$global/streams/out
-	target/streams/test/definedTests/$global/streams/out
-	target/streams/test/test/$global/streams/succeeded_tests
-	target/streams/test/testOnly/$global/streams/out
-	target/test-reports/ScalaFeatures.html
-	target/test-reports/ScalaFeatures.xml
-	target/test-reports/TEST-ScalaFeatures.xml
-	target/test-reports/index.html
+.idea/workspace.xml
+target/streams/test/compile/$global/streams/out
+target/streams/test/compileIncremental/$global/streams/out
+target/streams/test/definedTests/$global/streams/out
+target/streams/test/test/$global/streams/succeeded_tests
+target/streams/test/testOnly/$global/streams/out
+target/test-reports/ScalaFeatures.html
+target/test-reports/ScalaFeatures.xml
+target/test-reports/TEST-ScalaFeatures.xml
+target/test-reports/index.html
