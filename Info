@@ -16,3 +16,7 @@
 #####Dependencies#####
 
 #All dependencies will be present in build.sbt file
+
+#####Result File#####
+
+#Updated Test Reports are created at target/test-reports in Local.
