@@ -11,7 +11,7 @@
 #Install Scala and SBT plugins
 #sbt compile - For Compiling
 #sbt test - To run all the tests in Test folder
-#sbt testOnly*"ClassName" - To run a specific class in test folder
+#sbt testOnly *"ClassName" - To run a specific class in test folder
 
 #####Dependencies#####
 
